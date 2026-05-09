@@ -10,7 +10,7 @@ function logoutUser() {
         console.log("All tokens cleared successfully");
         
         // Redirect to login page
-        window.location.href = '/login';
+        window.location.href = '/login'; 
         
     } catch (error) {
         console.error("Logout error:", error.message);
