@@ -2,7 +2,6 @@
 
 ## Team Members
 - malak hesham (PM & Developer)
-- Shahd Aboetab (Developer)
 - Hadeer Khaled (Developer)
 - Malak Mostafa (Developer)
 
