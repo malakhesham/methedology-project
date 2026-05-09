@@ -10,7 +10,7 @@ async function loginUser(email, password) {
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify({ email, password })
-        });
+        }); 
 
         if (response.status === 401) {
             console.log("Fix applied: Clearing old token before retry");
