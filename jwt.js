@@ -9,7 +9,7 @@ function generateToken(user) {
         exp: Date.now() + 3600000
     };
     console.log("Token generated for:", user.email);
-    return { header, payload };
+    return { header, payload }; 
 }
 
 function verifyToken(token) {
